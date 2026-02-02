@@ -4,7 +4,7 @@ Este proyecto implementa un Pipeline de Datos automatizado para una empresa de e
 Estructura del Proyecto
 El flujo está organizado de manera modular para garantizar escalabilidad y orden:
 
-Plaintext
+
 preparacion_datos_ecommerce/
 ├── data/
 │   ├── raw/            
