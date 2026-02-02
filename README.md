@@ -7,20 +7,20 @@ El flujo está organizado de manera modular para garantizar escalabilidad y orde
 Plaintext
 preparacion_datos_ecommerce/
 ├── data/
-│   ├── raw/            # Datos originales (Inmutables)
-│   ├── processed/      # Resultados de etapas intermedias
-│   └── final/          # Datasets finales para negocio (CSV/Excel)
-├── src/                # Módulos de procesamiento por etapas
+│   ├── raw/            
+│   ├── processed/      
+│   └── final/          
+├── src/                
 │   ├── leccion_1_numpy.py
 │   ├── leccion_2_pandas.py
 │   ├── leccion_3_obtencion.py
 │   ├── leccion_4_limpieza.py
 │   ├── leccion_5_wrangling.py
 │   └── leccion_6_agrupamiento.py
-├── main.py             # Orquestador principal del flujo
-├── informe_preparacion_datos.docx # Informe detallado del proyecto
-├── requirements.txt    # Dependencias del proyecto
-└── README.md           # Documentación
+├── main.py             
+├── informe_preparacion_datos.docx 
+├── requirements.txt    
+└── README.md          
 
 Tecnologías Utilizadas
 NumPy: Generación de datos sintéticos y cálculos de alto rendimiento mediante memoria contigua y funciones vectorizadas.
