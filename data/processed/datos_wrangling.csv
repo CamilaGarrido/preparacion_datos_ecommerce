@@ -1,0 +1,11 @@
+id,nombre,edad,ciudad,total_compras,monto_total,categoria_cliente
+1,Ana,25.0,Buenos Aires,5,2500,Bajo
+2,Luis,34.0,Córdoba,2,1200,Bajo
+3,Carlos,45.0,Rosario,0,0,Bajo
+4,Marta,29.0,Mendoza,3,1800,Bajo
+5,Jorge,31.0,La Plata,8,3200,Bajo
+6,Lucía,28.0,Salta,10,4100,Bajo
+7,Pedro,,Tucumán,1,400,Bajo
+8,Sofía,33.0,Santa Fe,4,2100,Bajo
+9,Diego,42.0,Neuquén,7,3300,Bajo
+10,Valentina,30.0,Bahía Blanca,6,2950,Bajo
