@@ -4,23 +4,21 @@ Este proyecto implementa un Pipeline de Datos automatizado para una empresa de e
 Estructura del Proyecto
 El flujo está organizado de manera modular para garantizar escalabilidad y orden:
 
-
 preparacion_datos_ecommerce/
 ├── data/
-│   ├── raw/            
-│   ├── processed/      
-│   └── final/          
-├── src/                
+│   ├── raw/            # Datos originales (Inmutables)
+│   ├── processed/      # Resultados de etapas intermedias
+│   └── final/          # Datasets finales para negocio (CSV/Excel)
+├── src/                # Módulos de procesamiento por etapas
 │   ├── leccion_1_numpy.py
 │   ├── leccion_2_pandas.py
 │   ├── leccion_3_obtencion.py
 │   ├── leccion_4_limpieza.py
 │   ├── leccion_5_wrangling.py
 │   └── leccion_6_agrupamiento.py
-├── main.py             
-├── informe_preparacion_datos.docx 
-├── requirements.txt    
-└── README.md          
+├── main.py             # Orquestador principal del flujo
+├── requirements.txt    # Dependencias del proyecto
+└── README.md           # Documentación       
 
 Tecnologías Utilizadas
 NumPy: Generación de datos sintéticos y cálculos de alto rendimiento mediante memoria contigua y funciones vectorizadas.
